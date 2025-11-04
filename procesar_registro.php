@@ -8,6 +8,7 @@
   </head>
   <body>
     <?php
+        // Martes 4 de Noviembre de 2025 By Cesar Adolfo Gonzalez Marin
         // Conexión a la base de datos
 		$host = "localhost";
 		$usuario = "root";
