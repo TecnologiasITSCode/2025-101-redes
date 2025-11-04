@@ -13,7 +13,7 @@
         <div class=row>
             <div class="col-6 mb-3">
                 <label for="id" class="form-label">Documento</label>
-                <input type="text" class="form-control" id="id" name="id" required>
+                <input type="text" class="form-control" id="id" name="id" required autofocus="autofocus">
             </div>
             <div class="col-6 mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
