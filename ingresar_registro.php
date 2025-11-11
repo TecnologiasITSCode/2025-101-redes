@@ -11,26 +11,44 @@
     <div class="container">
       <form action="procesar_registro.php" method="post">
         <div class=row>
-            <div class="col-6 mb-3">
+            <div class="col-3 mb-3">
                 <label for="id" class="form-label">Documento</label>
                 <input type="text" class="form-control" id="id" name="id" required autofocus="autofocus">
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-9 mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
         </div>         
         <div class=row>        
+            <div class="col-3 mb-3">
+                <label for="rh" class="form-label">RH</label>
+                <input type="text" class="form-control" id="rh" name="rh" required>
+            </div>
             <div class="col-6 mb-3">
+                <label for="nacimiento" class="form-label">Fecha Nacimiento</label>
+                <input type="date" class="form-control" id="nacimiento" name="nacimiento" required>
+            </div>
+            <div class="col-3 mb-3">
+                <label for="genero" class="form-label">Genero</label>
+                <input type="text" class="form-control" id="genero" name="genero" required>
+            </div>            
+        </div>     
+        <div class=row>        
+            <div class="col-3 mb-3">
                 <label for="usuario" class="form-label">Usuario</label>
                 <input type="text" class="form-control" id="usuario" name="usuario" required>
             </div>
-            <div class="col-6 mb-3">
+            <div class="col-9 mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
-        </div>        
-        <button type="submit" class="btn btn-primary">Registrar!</button>
+        </div>              
+        <div class=row>           
+             <div class="col mb-3">          
+                <button type="submit" class="btn btn-primary w-100">Registrar!</button>        
+            </div>
+        </div>
       </form>
 
     </div>
